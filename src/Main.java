@@ -89,7 +89,7 @@ public class Main {
       int sum = 0;
       for (int i = 0; i < employees.length; i++) {
          if(employees[i] != null) {
-            sum = sum + employees[i].getSalary() / 10;
+            sum = sum + employees[i].getSalary() / employees.length;
          }
       }
       System.out.println(sum);

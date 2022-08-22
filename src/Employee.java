@@ -3,15 +3,7 @@ public class Employee {
     private String name;
     private int department;
     private int salary;
-
     private static int counter = 0;
-
-    public static void printAllEmployee(){
-
-    }
-    public static void printAllEmployeeNames(){
-
-    }
 
     public Employee (String name, int department, int salary) {
         this.name = name;
